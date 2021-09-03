@@ -3,9 +3,41 @@
     margin: 0;
     padding: 0;
 }
+body{
+    width: 70%;
+    margin: auto;
+}
+/* struttura */
+header{
+    height: 100px;
+    background-color: lightgreen;
+}
+main{
+    height: 800px;
+}
+footer{
+    height: 100px;
+    background-color: lightsalmon;
+}
+/* /struttura */
 
 .clearfix::after{
     content: "";
     display: table;
     clear: both;
+}
+.sidebar ,.content{
+    float: left;
+    /* height: 200px; */
+    height: 100%;
+    
+}
+.sidebar{
+    width: 30%;
+    background-color: cornflowerblue;
+    
+}
+.content{
+    width: 70%;
+    background-color:cyan;
 }

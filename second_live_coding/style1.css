@@ -3,3 +3,44 @@
     margin: 0;
     padding: 0;
 }
+.debug > .sitemain{
+    height: 300px;
+
+}
+body{
+    padding: 1rem;
+}
+main{
+    padding: 1rem 0 ;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.header{
+    background-color: yellow;
+}
+.sidebar{
+    background-color: lightcoral;
+    width: 28%;
+    margin-right: 2%;
+    height: 100%;
+}
+.content{
+    background-color: cornflowerblue;
+    width: 70%;
+}
+.footer{
+    background-color: lightskyblue;
+}
+
+/* common rules */
+.sidebar , .content{
+    padding: 1rem;
+    height: 100%;
+    float: left;
+}
+.header , .footer{
+    height: 100px;
+}
